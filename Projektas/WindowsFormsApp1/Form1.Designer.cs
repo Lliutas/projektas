@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
             this.btnPajamos.TabIndex = 0;
             this.btnPajamos.Text = "Pažiūrėti darbuotojo pajamas";
             this.btnPajamos.UseVisualStyleBackColor = true;
+            this.btnPajamos.Click += new System.EventHandler(this.btnPajamos_Click);
             // 
             // btnDemoPajamos
             // 
@@ -51,6 +52,7 @@ namespace WindowsFormsApp1
             this.btnDemoPajamos.TabIndex = 1;
             this.btnDemoPajamos.Text = "Pajamos pagal pareigas";
             this.btnDemoPajamos.UseVisualStyleBackColor = true;
+            this.btnDemoPajamos.Click += new System.EventHandler(this.btnDemoPajamos_Click);
             // 
             // button3
             // 
