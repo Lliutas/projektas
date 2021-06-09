@@ -36,12 +36,12 @@ namespace WindowsFormsApp1
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.cmbId = new System.Windows.Forms.ComboBox();
+            this.txtVardas = new System.Windows.Forms.TextBox();
+            this.txtPavardė = new System.Windows.Forms.TextBox();
+            this.txtPajamos = new System.Windows.Forms.TextBox();
+            this.txtPareigos = new System.Windows.Forms.TextBox();
+            this.txtEtatoDalis = new System.Windows.Forms.TextBox();
+            this.cmbxDarbuotojoId = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -108,61 +108,60 @@ namespace WindowsFormsApp1
             this.label7.TabIndex = 8;
             this.label7.Text = "Pajamos:";
             // 
-            // textBox2
+            // txtVardas
             // 
-            this.textBox2.Location = new System.Drawing.Point(175, 62);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(106, 20);
-            this.textBox2.TabIndex = 10;
+            this.txtVardas.Location = new System.Drawing.Point(175, 62);
+            this.txtVardas.Name = "txtVardas";
+            this.txtVardas.Size = new System.Drawing.Size(106, 20);
+            this.txtVardas.TabIndex = 10;
             // 
-            // textBox3
+            // txtPavardė
             // 
-            this.textBox3.Location = new System.Drawing.Point(175, 88);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(106, 20);
-            this.textBox3.TabIndex = 11;
+            this.txtPavardė.Location = new System.Drawing.Point(175, 88);
+            this.txtPavardė.Name = "txtPavardė";
+            this.txtPavardė.Size = new System.Drawing.Size(106, 20);
+            this.txtPavardė.TabIndex = 11;
             // 
-            // textBox4
+            // txtPajamos
             // 
-            this.textBox4.Location = new System.Drawing.Point(175, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(106, 20);
-            this.textBox4.TabIndex = 12;
+            this.txtPajamos.Location = new System.Drawing.Point(175, 166);
+            this.txtPajamos.Name = "txtPajamos";
+            this.txtPajamos.Size = new System.Drawing.Size(106, 20);
+            this.txtPajamos.TabIndex = 12;
             // 
-            // textBox5
+            // txtPareigos
             // 
-            this.textBox5.Location = new System.Drawing.Point(175, 114);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(106, 20);
-            this.textBox5.TabIndex = 13;
+            this.txtPareigos.Location = new System.Drawing.Point(175, 114);
+            this.txtPareigos.Name = "txtPareigos";
+            this.txtPareigos.Size = new System.Drawing.Size(106, 20);
+            this.txtPareigos.TabIndex = 13;
             // 
-            // textBox6
+            // txtEtatoDalis
             // 
-            this.textBox6.Location = new System.Drawing.Point(175, 140);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(106, 20);
-            this.textBox6.TabIndex = 14;
+            this.txtEtatoDalis.Location = new System.Drawing.Point(175, 140);
+            this.txtEtatoDalis.Name = "txtEtatoDalis";
+            this.txtEtatoDalis.Size = new System.Drawing.Size(106, 20);
+            this.txtEtatoDalis.TabIndex = 14;
             // 
-            // cmbId
+            // cmbxDarbuotojoId
             // 
-            this.cmbId.FormattingEnabled = true;
-            this.cmbId.Location = new System.Drawing.Point(175, 6);
-            this.cmbId.Name = "cmbId";
-            this.cmbId.Size = new System.Drawing.Size(106, 21);
-            this.cmbId.TabIndex = 15;
-            this.cmbId.SelectedIndexChanged += new System.EventHandler(this.cmbId_SelectedIndexChanged_1);
+            this.cmbxDarbuotojoId.FormattingEnabled = true;
+            this.cmbxDarbuotojoId.Location = new System.Drawing.Point(175, 6);
+            this.cmbxDarbuotojoId.Name = "cmbxDarbuotojoId";
+            this.cmbxDarbuotojoId.Size = new System.Drawing.Size(106, 21);
+            this.cmbxDarbuotojoId.TabIndex = 15;
             // 
             // DarbuotojųPajamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(285, 192);
-            this.Controls.Add(this.cmbId);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.cmbxDarbuotojoId);
+            this.Controls.Add(this.txtEtatoDalis);
+            this.Controls.Add(this.txtPareigos);
+            this.Controls.Add(this.txtPajamos);
+            this.Controls.Add(this.txtPavardė);
+            this.Controls.Add(this.txtVardas);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -186,11 +185,11 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox cmbId;
+        private System.Windows.Forms.TextBox txtVardas;
+        private System.Windows.Forms.TextBox txtPavardė;
+        private System.Windows.Forms.TextBox txtPajamos;
+        private System.Windows.Forms.TextBox txtPareigos;
+        private System.Windows.Forms.TextBox txtEtatoDalis;
+        private System.Windows.Forms.ComboBox cmbxDarbuotojoId;
     }
 }
