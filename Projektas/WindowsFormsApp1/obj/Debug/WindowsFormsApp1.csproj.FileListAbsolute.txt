@@ -69,3 +69,6 @@ D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\bin\Debug\System.Numerics.V
 D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.IštrintiDarbuotoją.resources
+D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PajamosPagalPareigas.resources
+D:\Desktop\Projektas_NKKM\Projektas\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pridėti_darbuotoją.resources
