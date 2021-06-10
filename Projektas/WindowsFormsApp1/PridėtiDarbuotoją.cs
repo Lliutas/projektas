@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
             MySqlConnection connection = new MySqlConnection(connectionString);
             MySqlCommand cmd;
             cmd = connection.CreateCommand();
-            cmd.CommandText = "INSERT INTO darbuotojai (Vardas, Pavadė, PareigųId, EtatoDalis) values ('" + txtPVardas.Text + "','"+ txtPPavardė.Text +"',"+ cmbxPPareigųId.SelectedItem +", "+ Int32.Parse(txtPEtatoDalis.Text) +");";
+            cmd.CommandText = "INSERT INTO darbuotojai (Vardas, Pavadė, PareigųId, EtatoDalis) values ('" + txtPVardas.Text + "','"+ txtPPavardė.Text +"',"+ cmbxPPareigųId.SelectedItem +", "+ Convert.ToDouble(txtPEtatoDalis.Text) +");";
             try
             {
                 connection.Open();
