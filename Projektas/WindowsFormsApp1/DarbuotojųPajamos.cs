@@ -47,7 +47,7 @@ namespace WindowsFormsApp1
             MySqlConnection connection = new MySqlConnection(connectionString);
             MySqlCommand cmd;
             cmd = connection.CreateCommand();
-            int comboReiksme = cmbxDarbuotojoId.SelectedIndex + 1;
+            int comboReiksme = (int)cmbxDarbuotojoId.SelectedItem;
             cmd.CommandText = "select * from darbuotojai where Id = "+ comboReiksme +";";
             int intPareigosId=0;
             int intPareigosPajamos = 0;
