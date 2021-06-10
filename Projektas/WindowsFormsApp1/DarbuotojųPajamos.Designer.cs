@@ -170,7 +170,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.btnParodytiInfo);
             this.Controls.Add(this.label1);
             this.Name = "DarbuotojųPajamos";
-            this.Text = "DarbuotojųPajamos";
+            this.Text = "Darbuotojų pajamos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

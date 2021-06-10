@@ -30,7 +30,20 @@ namespace WindowsFormsApp1
 
         private void btnDemoPajamos_Click(object sender, EventArgs e)
         {
+            PajamosPagalPareigas pajamosPagalPareigas = new PajamosPagalPareigas();
+            pajamosPagalPareigas.ShowDialog();
+        }
 
+        private void btnPridėti_Click(object sender, EventArgs e)
+        {
+            Pridėti_darbuotoją pridėti_Darbuotoją = new Pridėti_darbuotoją();
+            pridėti_Darbuotoją.ShowDialog();
+        }
+
+        private void btnIštrinti_Click(object sender, EventArgs e)
+        {
+            IštrintiDarbuotoją ištrintiDarbuotoją = new IštrintiDarbuotoją();
+            ištrintiDarbuotoją.ShowDialog();
         }
     }
 }
